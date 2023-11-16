@@ -1,0 +1,23 @@
+{
+    "name": "shop-thoi-trang",
+    "description": "Học lập trình php",
+    "authors": [
+        {
+            "name": "LE ANH VAN",
+            "email": "leanhvan.20072004@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^10.28",
+        "illuminate/events": "^10.26"
+    }
+}
